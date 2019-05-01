@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-remark-codesandbox",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "This plugin will allow you to add a codesandbox embed link to your markdown files",
   "main": "index.js",
   "scripts": {
