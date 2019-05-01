@@ -1,16 +1,22 @@
 {
   "name": "gridsome-plugin-remark-codesandbox",
-  "version": "0.0.1",
-  "description": "This plugin will allow you to add a codesandbox share to your markdown files",
+  "version": "0.1.0",
+  "description": "This plugin will allow you to add a codesandbox embed link to your markdown files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "gridsome",
+    "gridsome-plugin",
+    "markdown",
     "vuejs",
     "codesandbox"
   ],
-  "author": "Dan Vega",
-  "license": "MIT"
+  "author": "Dan Vega <danvega@gmail.com>",
+  "homepage": "https://github.com/danvega/gridsome-plugin-remark-codesandbox",
+  "license": "MIT",
+  "dependencies": {
+    "unist-util-visit": "^1.4.0"
+  }
 }
