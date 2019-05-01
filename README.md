@@ -1,6 +1,6 @@
 # Gridsome Plugin Remark CodeSandbox
 
-![Gridsome Plugin Remark CodeSandbox](https://github.com/danvega/gridsome-plugin-remark-codesandbox/blob/master/img/girdsome-plugin-remark-codesandbox.png)
+![Gridsome Plugin Remark CodeSandbox](https://i.imgur.com/xmT8yGY.png)
 
 This ia plugin for Gridsome's markdown engine Remark and it allows you to embed a CodeSandbox in your markdown files.
 
@@ -48,7 +48,7 @@ https://codesandbox.io/embed/019ozxz8m0?fontsize=14
 
 This is what the result looks like 
 
-![Embed CodeSandbox in Markdown](https://github.com/danvega/gridsome-plugin-remark-codesandbox/blob/master/img/result.png)
+![Embed CodeSandbox in Markdown](https://i.imgur.com/3ueqSyF.png)
 
 ## Embed Options
 
