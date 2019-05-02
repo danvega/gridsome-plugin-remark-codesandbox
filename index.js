@@ -15,7 +15,7 @@ const isCodeSandboxLink = node => {
 module.exports = (options) => {
   const debug = options.debug ? console.log : () => {}
 
-  return async tree => {
+  return tree => {
 
     const nodes = [];
 
