@@ -2,14 +2,12 @@ const visit = require('unist-util-visit');
 
 const codeSandboxRegexp = /https:\/\/codesandbox\.io\/embed\/.*/;
 
-const getEmbeddedCodeSandbox = (link) => {
-  const url = link.split('?')[0]
-  const queryString = link.split('?')[1]
-  return `<iframe src="${link}" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>`;
-}
-
 const isCodeSandboxLink = node => {
   return node.children.length === 1 && node.children[0].type === 'link' && codeSandboxRegexp.test(node.children[0].url)
+}
+
+const getEmbeddedCodeSandbox = (link) => {
+  return `<iframe src="${link}" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>`;
 }
 
 module.exports = (options) => {
